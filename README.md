@@ -1,6 +1,6 @@
 # PEPstrMOD2
 
-A computational framework for predicting and refining the **three-dimensional structures of peptides containing chemically modified amino acids** using state-of-the-art structure prediction methods and molecular dynamics simulations.
+A computational tool for predicting and refining the **three-dimensional structures of peptides containing chemically modified amino acids** using state-of-the-art structure prediction methods and molecular dynamics simulations.
 
 ---
 
@@ -232,6 +232,6 @@ output/
 
 ---
 
-🚀 **Start predicting chemically modified peptides structures with PEPstrMOD2 today!**
+🚀 **Start predicting chemically modified peptides structures with PEPstrMOD2 today!** [PEPstrMOD2](https://webs.iiitd.edu.in/raghava/pepstrmod/)
 
 🔗 Also available in Docker: [PEPstrMOD2](https://hub.docker.com/repository/docker/salonirara/pepstrmod2/general)
