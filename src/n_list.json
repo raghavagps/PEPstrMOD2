@@ -971,16 +971,6 @@
   },
   {
     "Natural Amino Acid": "Phenylalanine/Phe/F",
-    "Modifications": "N-METHYLPHENYLALANINE",
-    "Actual PDB code": "MEA",
-    "Three letter code": "MEA",
-    "MAP notation": "{nt:MEA}",
-    "Type": "Methylation",
-    "User Code": "Meth",
-    "User Input": "{nt:Meth}"
-  },
-  {
-    "Natural Amino Acid": "Phenylalanine/Phe/F",
     "Modifications": "4-N,N-(DIMETHYLAMINO)-L-PHENYLALANINE",
     "Actual PDB code": "MHU",
     "Three letter code": "MHU",
@@ -1333,7 +1323,7 @@
     "Natural Amino Acid": "Valine/Val/V",
     "Modifications": "N-ethyl-L-valine",
     "Actual PDB code": "66E",
-    "Three letter code": "V07",
+    "Three letter code": "MEAV07",
     "MAP notation": "{nt:V07}",
     "Type": "Ethylation",
     "User Code": "Ethyl",

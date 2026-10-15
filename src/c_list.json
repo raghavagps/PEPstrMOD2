@@ -111,7 +111,7 @@
   },
   {
     "Natural Amino Acid": "Arginine/Arg/R",
-    "Modifications": "N-methyll-argininamide",
+    "Modifications": "N-methyl-argininamide",
     "Actual PDB code": NaN,
     "Three letter code": "R02",
     "MAP notation": "{ct:R02}",

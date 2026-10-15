@@ -2137,6 +2137,14 @@
   },
   {
     "Natural Amino Acid": "Phenylalanine/Phe/F",
+    "Modifications": "3,4-DIHYDROXYPHENYLALANINE",
+    "Actual PDB code": "DAH",
+    "Three letter code": "DAH",
+    "MAP notation": "{nnr:DAH}",
+    "Type": NaN
+  },
+  {
+    "Natural Amino Acid": "Phenylalanine/Phe/F",
     "Modifications": "2,3,5,6-tetrafluoro-4-iodo-L-phenylalanine",
     "Actual PDB code": "V61",
     "Three letter code": "V61",
@@ -2893,14 +2901,6 @@
     "Actual PDB code": "LTU",
     "Three letter code": "LTU",
     "MAP notation": "{nnr:LTU}",
-    "Type": NaN
-  },
-  {
-    "Natural Amino Acid": "Tryptophan/Trp/W",
-    "Modifications": "L-TRYPTOPHAN",
-    "Actual PDB code": "LTR",
-    "Three letter code": "LTR",
-    "MAP notation": "{nnr:LTR}",
     "Type": NaN
   },
   {

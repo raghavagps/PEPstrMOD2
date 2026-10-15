@@ -1109,7 +1109,7 @@
     "User Code": "caam",
     "User Input": "{ptm:caam}"
   },
-    {
+  {
     "Natural Amino Acid": "Lysine/Lys/K",
     "Modifications": "N~6~-{[(2R,3R)-3-METHYL-3,4-DIHYDRO-2H-PYRROL-2-YL]CARBONYL}-L-LYSINE",
     "Actual PDB code": "PYH",
@@ -1372,7 +1372,7 @@
   {
     "Natural Amino Acid": "Lysine/Lys/K",
     "Modifications": "N~6~-(sulfanylmethyl)-L-lysine",
-    "Actual PDB code": "K9E7",
+    "Actual PDB code": "9E7",
     "Three letter code": "K03",
     "MAP notation": "{ptm:K03}",
     "Type": "Sulfanylmethylation",
@@ -1501,6 +1501,16 @@
   },
   {
     "Natural Amino Acid": "Phenylalanine/Phe/F",
+    "Modifications": "N-METHYLPHENYLALANINE",
+    "Actual PDB code": "MEA",
+    "Three letter code": "MEA",
+    "MAP notation": "{ptm:MEA}",
+    "Type": "Methylation",
+    "User Code": "Meth",
+    "User Input": "{ptm:Meth}"
+  },
+  {
+    "Natural Amino Acid": "Phenylalanine/Phe/F",
     "Modifications": "PARA-NITROPHENYLALANINE",
     "Actual PDB code": "PPN",
     "Three letter code": "PPN",
@@ -1508,16 +1518,6 @@
     "Type": "Nitration",
     "User Code": "nitro",
     "User Input": "{ptm:nitro}"
-  },
-    {
-    "Natural Amino Acid": "Phenylalanine/Phe/F",
-    "Modifications": "3,4-DIHYDROXYPHENYLALANINE",
-    "Actual PDB code": "DAH",
-    "Three letter code": "DAH",
-    "MAP notation": "{ptm:DAH}",
-    "Type": "Hydroxylation",
-    "User Code": "hydroxy4",
-    "User Input": "{ptm:hydroxy4}"
   },
   {
     "Natural Amino Acid": "Phenylalanine/Phe/F",
@@ -1709,7 +1709,7 @@
     "User Code": "caam",
     "User Input": "{ptm:caam}"
   },
-    {
+  {
     "Natural Amino Acid": "Proline/Pro/P",
     "Modifications": "4-HYDROXYPROLINE",
     "Actual PDB code": "HYP",
@@ -2229,7 +2229,7 @@
     "User Code": "chloro35",
     "User Input": "{ptm:chloro35}"
   },
-    {
+  {
     "Natural Amino Acid": "Tyrosine/Tyr/Y",
     "Modifications": "O-PHOSPHOTYROSINE",
     "Actual PDB code": "PTR",
