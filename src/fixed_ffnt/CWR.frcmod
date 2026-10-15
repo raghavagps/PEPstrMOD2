@@ -1,0 +1,78 @@
+Remark line goes here
+MASS
+N  14.010        0.530               same as n  
+c5 12.010        0.878               same as c3 
+CT 12.010        0.878               same as c3 
+H1 1.008         0.135               same as h1 
+C  12.010        0.616               same as c  
+O  16.000        0.434               same as o  
+
+BOND
+N -c5  328.70   1.462       same as c3- n, penalty score=  0.0
+N -c   427.60   1.379       same as  c- n, penalty score=  0.0
+CT-N   328.70   1.462       same as c3- n, penalty score=  0.0
+c5-n2  324.50   1.466       same as c3-n2, penalty score=  0.0
+c5-h2  331.70   1.096       same as c3-h2, penalty score=  0.0
+CT-H1  330.60   1.097       same as c3-h1, penalty score=  0.0
+C -CT  313.00   1.524       same as  c-c3, penalty score=  0.0
+C -O   637.70   1.218       same as  c- o, penalty score=  0.0
+
+ANGLE
+N -c5-n2   69.300     111.310   same as n -c3-n2, penalty score=  0.0
+N -c5-h2   50.200     107.280   same as h2-c3-n , penalty score=  0.0
+N -c -ce   67.900     115.220   same as ce-c -n , penalty score=  0.0
+N -c -o    74.200     123.050   same as n -c -o , penalty score=  0.0
+H1-CT-N    49.800     108.880   same as h1-c3-n , penalty score=  0.0
+C -CT-N    67.000     109.060   same as c -c3-n , penalty score=  0.0
+c -N -c5   63.400     120.690   same as c -n -c3, penalty score=  0.0
+CT-N -c5   63.000     115.640   same as c3-n -c3, penalty score=  0.0
+c5-n2-ce   65.500     118.670   same as c3-n2-ce, penalty score=  0.0
+h2-c5-n2   49.400     110.200   same as h2-c3-n2, penalty score=  0.0
+CT-N -c    63.400     120.690   same as c -n -c3, penalty score=  0.0
+h2-c5-h2   39.000     110.200   same as h2-c3-h2, penalty score=  0.0
+CT-C -O    67.400     123.200   same as c3-c -o , penalty score=  0.0
+H1-CT-H1   39.200     108.460   same as h1-c3-h1, penalty score=  0.0
+C -CT-H1   47.000     108.220   same as c -c3-h1, penalty score=  0.0
+
+DIHE
+N -c5-n2-ce   6    0.000         0.000           3.000      same as X -c3-n2-X , penalty score=  0.0
+O -C -CT-N    6    0.000       180.000           2.000      same as X -c -c3-X , penalty score=  0.0
+c5-N -c -ce   4   10.000       180.000           2.000      same as X -c -n -X , penalty score=  0.0
+c5-N -c -o    4   10.000       180.000           2.000      same as X -c -n -X , penalty score=  0.0
+H1-CT-N -c5   6    0.000         0.000           2.000      same as X -c3-n -X , penalty score=  0.0
+C -CT-N -c5   6    0.000         0.000           2.000      same as X -c3-n -X , penalty score=  0.0
+c -ce-n2-c5   2    1.600       180.000           2.000      same as X -ce-ne-X , penalty score=160.5
+c3-ce-n2-c5   2    1.600       180.000           2.000      same as X -ce-ne-X , penalty score=160.5
+hc-c3-ce-n2   6    0.000         0.000           3.000      same as X -c3-cc-X , penalty score=136.0
+c -N -c5-n2   6    0.000         0.000           2.000      same as X -c3-n -X , penalty score=  0.0
+c -N -c5-h2   6    0.000         0.000           2.000      same as X -c3-n -X , penalty score=  0.0
+H1-CT-N -c    6    0.000         0.000           2.000      same as X -c3-n -X , penalty score=  0.0
+C -CT-N -c    1    0.850       180.000          -2.000      same as c -n -c3-c 
+C -CT-N -c    1    0.800         0.000           1.000      same as c -n -c3-c , penalty score=  0.0
+hc-c3-ce-c    1    0.380       180.000          -3.000      same as hc-c3-c2-c2
+hc-c3-ce-c    1    0.000         0.000          -2.000      same as hc-c3-c2-c2
+hc-c3-ce-c    1    1.150         0.000           1.000      same as hc-c3-c2-c2, penalty score=324.0
+h2-c5-n2-ce   6    0.000         0.000           3.000      same as X -c3-n2-X , penalty score=  0.0
+CT-N -c5-n2   6    0.000         0.000           2.000      same as X -c3-n -X , penalty score=  0.0
+CT-N -c5-h2   6    0.000         0.000           2.000      same as X -c3-n -X , penalty score=  0.0
+CT-N -c -ce   4   10.000       180.000           2.000      same as X -c -n -X , penalty score=  0.0
+CT-N -c -o    4   10.000       180.000           2.000      same as X -c -n -X , penalty score=  0.0
+O -C -CT-H1   1    0.800         0.000          -1.000      same as h1-c3-c -o 
+O -C -CT-H1   1    0.000         0.000          -2.000      same as h1-c3-c -o 
+O -C -CT-H1   1    0.080       180.000           3.000      same as h1-c3-c -o , penalty score=  0.0
+
+IMPROPER
+CT-c -N -c5         1.1          180.0         2.0          Using the default value
+c -c3-ce-n2         1.1          180.0         2.0          Using the default value
+N -ce-c -o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+
+NONBON
+  N           1.8240  0.1700             same as n  
+  c5          1.9080  0.1094             same as c3 
+  CT          1.9080  0.1094             same as c3 
+  H1          1.3870  0.0157             same as h1 
+  C           1.9080  0.0860             same as c  
+  O           1.6612  0.2100             same as o  
+
+
+

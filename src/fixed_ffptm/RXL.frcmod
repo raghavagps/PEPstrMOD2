@@ -1,0 +1,57 @@
+Remark line goes here
+MASS
+N  14.010        0.530               same as n  
+H  1.008         0.161               same as hn 
+CD 12.010        0.360               same as cc 
+CM 12.010        0.360               same as ca 
+CT 12.010        0.878               same as c3 
+HC 1.008         0.135               same as hc 
+C  12.010        0.616               same as c  
+O  16.000        0.434               same as o  
+
+BOND
+H -N   403.20   1.013       same as hn- n, penalty score=  0.0
+CD-N   425.10   1.381       same as cc- n, penalty score=  0.0
+CD-CM  385.10   1.456       same as ca-cc, penalty score=  0.0
+C -CD  371.00   1.468       same as  c-cc, penalty score=  0.0
+CM-CT  321.00   1.516       same as c3-ca, penalty score=  0.0
+CT-HC  330.60   1.097       same as c3-hc, penalty score=  0.0
+C -O   637.70   1.218       same as  c- o, penalty score=  0.0
+
+ANGLE
+CM-CD-N    67.900     117.670   same as ca-cc-n , penalty score=  0.0
+C -CD-N    67.900     116.370   same as c -cc-n , penalty score=  0.0
+CD-N -H    47.900     119.260   same as cc-n -hn, penalty score=  0.0
+CD-CM-CT   63.500     120.770   same as c3-ca-ca, penalty score=  2.0
+CD-C -O    69.100     123.930   same as cc-c -o , penalty score=  0.0
+C -CD-CM   63.000     122.950   same as c -cc-ca, penalty score=  0.0
+CM-CT-HC   46.800     110.470   same as ca-c3-hc, penalty score=  0.0
+CT-CM-CT   62.300     116.800   same as c3-ca-c3, penalty score=  0.0
+HC-CT-HC   39.400     107.580   same as hc-c3-hc, penalty score=  0.0
+
+DIHE
+N -CD-CM-CT   4    2.800       180.000           2.000      same as X -c2-ca-X , penalty score=232.0
+O -C -CD-N    4   11.500       180.000           2.000      same as X -c -cd-X , penalty score=  0.0
+CM-CD-N -H    4    6.600       180.000           2.000      same as X -n -cd-X , penalty score=  0.0
+C -CD-N -H    4    6.600       180.000           2.000      same as X -n -cd-X , penalty score=  0.0
+CD-CM-CT-HC   6    0.000         0.000           2.000      same as X -c3-ca-X , penalty score=  0.0
+O -C -CD-CM   4   11.500       180.000           2.000      same as X -c -cd-X , penalty score=  0.0
+CT-CM-CT-HC   6    0.000         0.000           2.000      same as X -c3-ca-X , penalty score=  0.0
+C -CD-CM-CT   4    2.800       180.000           2.000      same as X -c2-ca-X , penalty score=232.0
+
+IMPROPER
+C -CM-CD-N          1.1          180.0         2.0          Using the default value
+CD-CT-CM-CT         1.1          180.0         2.0          Using the default value
+
+NONBON
+  N           1.8240  0.1700             same as n  
+  H           0.6000  0.0157             same as hn 
+  CD          1.9080  0.0860             same as cc 
+  CM          1.9080  0.0860             same as ca 
+  CT          1.9080  0.1094             same as c3 
+  HC          1.4870  0.0157             same as hc 
+  C           1.9080  0.0860             same as c  
+  O           1.6612  0.2100             same as o  
+
+
+

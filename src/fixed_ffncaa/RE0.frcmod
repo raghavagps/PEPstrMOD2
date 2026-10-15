@@ -1,0 +1,167 @@
+Remark line goes here
+MASS
+N  14.010        0.530               same as n  
+H  1.008         0.161               same as hn 
+CT 12.010        0.878               same as c3 
+OH 16.000        0.465               same as oh 
+HO 1.008         0.135               same as ho 
+C  12.010        0.616               same as c  
+O  16.000        0.434               same as o  
+CN 12.010        0.360               same as c2 
+CA 12.010        0.360               same as ca 
+CB 12.010        0.360               same as ca 
+HA 1.008         0.135               same as ha 
+HC 1.008         0.135               same as hc 
+H1 1.008         0.135               same as h1 
+
+BOND
+H -N   527.30   1.013       same as hn- n, penalty score=  0.0
+CT-N   254.46   1.464       same as c3- n, penalty score=  0.0
+CT-CT  228.89   1.535       same as c3-c3, penalty score=  0.0
+CT-H1  344.22   1.097       same as c3-h1, penalty score=  0.0
+C -CT  234.85   1.527       same as  c-c3, penalty score=  0.0
+CT-HC  345.25   1.096       same as c3-hc, penalty score=  0.0
+CT-OH  285.15   1.424       same as c3-oh, penalty score=  0.0
+CB-CT  243.91   1.515       same as c3-ca, penalty score=  0.0
+HO-OH  535.51   0.973       same as ho-oh, penalty score=  0.0
+C -O   590.60   1.219       same as  c- o, penalty score=  0.0
+C -N   317.46   1.397       same as  c- n, penalty score=  0.0
+CN-N   331.66   1.384       same as cc- n, penalty score=  5.2
+CA-CN  296.50   1.453       same as ca-cc, penalty score=  5.2
+CB-CN  296.50   1.453       same as ca-cc, penalty score=  5.2
+CA-CA  354.25   1.399       same as ca-ca, penalty score=  0.0
+CA-HA  360.69   1.086       same as ca-ha, penalty score=  0.0
+CA-CB  354.25   1.399       same as ca-ca, penalty score=  0.0
+
+ANGLE
+CT-CT-N    64.950     112.780   same as c3-c3-n , penalty score=  0.0
+H1-CT-N    48.090     108.760   same as h1-c3-n , penalty score=  0.0
+C -CT-N    65.390     111.940   same as c -c3-n , penalty score=  0.0
+CT-N -H    46.100     117.680   same as c3-n -hn, penalty score=  0.0
+CT-CT-CT   59.870     112.630   same as c3-c3-c3, penalty score=  0.0
+CT-CT-HC   43.270     109.680   same as c3-c3-hc, penalty score=  0.0
+CT-C -O    76.450     122.900   same as c3-c -o , penalty score=  0.0
+CT-CT-H1   43.280     109.590   same as c3-c3-h1, penalty score=  0.0
+C -CT-CT   60.360     111.430   same as c -c3-c3, penalty score=  0.0
+CT-CT-OH   76.790     109.660   same as c3-c3-oh, penalty score=  0.0
+CB-CT-CT   60.330     112.420   same as c3-c3-ca, penalty score=  0.0
+CT-OH-HO   65.130     107.390   same as c3-oh-ho, penalty score=  0.0
+CT-C -N    65.190     117.160   same as c3-c -n , penalty score=  0.0
+CN-CB-CT   66.100     120.000   same as c3-ca-c2, penalty score=  2.8
+CA-CB-CT   60.740     120.830   same as c3-ca-ca, penalty score=  0.0
+C -CT-OH   77.110     109.460   same as c -c3-oh, penalty score=  0.0
+CB-CT-OH   77.050     110.650   same as ca-c3-oh, penalty score=  0.0
+C -CT-CB   60.840     111.160   same as c -c3-ca, penalty score=  0.0
+C -N -CN   78.640     121.610   same as c -n -cc, penalty score=  2.0
+C -N -H    48.700     117.550   same as c -n -hn, penalty score=  0.0
+N -C -O    86.680     122.570   same as n -c -o , penalty score=  0.0
+CA-CN-N    67.110     119.540   same as ca-cp-na, penalty score= 19.2
+CB-CN-N    67.110     119.540   same as ca-cp-na, penalty score= 19.2
+CN-N -H    48.300     119.260   same as cc-n -hn, penalty score=  2.0
+CA-CA-CN   62.190     120.910   same as ca-ca-cc, penalty score=  2.0
+CN-CA-HA   44.730     119.820   same as cp-ca-ha, penalty score=  2.8
+CA-CB-CN   62.190     120.910   same as ca-ca-cc, penalty score=  2.0
+CA-CN-CB   63.790     118.410   same as ca-cp-ca, penalty score= 17.0
+CA-CA-CA   63.670     120.020   same as ca-ca-ca, penalty score=  0.0
+CA-CA-HA   44.900     119.880   same as ca-ca-ha, penalty score=  0.0
+CA-CA-CB   63.670     120.020   same as ca-ca-ca, penalty score=  0.0
+CB-CA-HA   44.900     119.880   same as ca-ca-ha, penalty score=  0.0
+HC-CT-HC   35.800     107.730   same as hc-c3-hc, penalty score=  0.0
+C -CT-H1   43.740     108.370   same as c -c3-h1, penalty score=  0.0
+
+DIHE
+CT-CT-CT-N    1    0.100         0.000           3.000      same as c3-c3-c3-n , penalty score=  0.0
+HC-CT-CT-N    9    1.400         0.000           3.000      same as X -c3-c3-X , penalty score=  0.0
+O -C -CT-N    6    0.000       180.000           2.000      same as X -c -c3-X , penalty score=  0.0
+CT-CT-N -H    6    0.000         0.000           2.000      same as X -c3-n -X , penalty score=  0.0
+H1-CT-N -H    6    0.000         0.000           2.000      same as X -c3-n -X , penalty score=  0.0
+C -CT-N -H    6    0.000         0.000           2.000      same as X -c3-n -X , penalty score=  0.0
+CT-CT-CT-OH   1    0.180         0.000           3.000      same as c3-c3-c3-oh, penalty score=  0.0
+C -CT-CT-CT   1    0.000         0.000          -3.000      same as c -c3-c3-c3
+C -CT-CT-CT   1    0.040         0.000          -2.000      same as c -c3-c3-c3
+C -CT-CT-CT   1    0.460       180.000           1.000      same as c -c3-c3-c3, penalty score=  0.0
+CB-CT-CT-CT   9    1.400         0.000           3.000      same as X -c3-c3-X , penalty score=  0.0
+O -C -CT-CT   1    0.200       180.000          -2.000      same as o -c -c3-c3
+O -C -CT-CT   1    0.440       180.000          -3.000      same as o -c -c3-c3
+O -C -CT-CT   1    0.680         0.000           1.000      same as o -c -c3-c3, penalty score=  0.0
+CT-CT-OH-HO   1    0.060         0.000           3.000      same as c3-c3-oh-ho, penalty score=  0.0
+N -C -CT-CT   1    0.000       180.000          -4.000      same as n -c -c3-c3
+N -C -CT-CT   1    0.710       180.000           2.000      same as n -c -c3-c3, penalty score=  0.0
+CN-CB-CT-CT   6    0.000         0.000           2.000      same as X -c3-ca-X , penalty score=  0.0
+CA-CB-CT-CT   1    0.240       180.000           2.000      same as c3-c3-ca-ca, penalty score=  0.0
+CT-C -N -CN   4   10.000       180.000           2.000      same as X -c -n -X , penalty score=  0.0
+CT-C -N -H    4   10.000       180.000           2.000      same as X -c -n -X , penalty score=  0.0
+O -C -CT-OH   6    0.000       180.000           2.000      same as X -c -c3-X , penalty score=  0.0
+N -C -CT-OH   6    0.000       180.000           2.000      same as X -c -c3-X , penalty score=  0.0
+CN-CB-CT-OH   6    0.000         0.000           2.000      same as X -c3-ca-X , penalty score=  0.0
+CA-CB-CT-OH   6    0.000         0.000           2.000      same as X -c3-ca-X , penalty score=  0.0
+C -CT-OH-HO   3    0.500         0.000           3.000      same as X -c3-oh-X , penalty score=  0.0
+CN-CB-CT-C    6    0.000         0.000           2.000      same as X -c3-ca-X , penalty score=  0.0
+CA-CB-CT-C    6    0.000         0.000           2.000      same as X -c3-ca-X , penalty score=  0.0
+CA-CN-N -C    4    5.800         0.000          -2.000      same as cd-cc-n -c2
+CA-CN-N -C    1    0.810         0.000          -3.000      same as cd-cc-n -c2
+CA-CN-N -C    1    0.190       180.000           1.000      same as cd-cc-n -c2, penalty score=466.0
+CB-CN-N -C    4    5.800         0.000          -2.000      same as cd-cc-n -c2
+CB-CN-N -C    1    0.810         0.000          -3.000      same as cd-cc-n -c2
+CB-CN-N -C    1    0.190       180.000           1.000      same as cd-cc-n -c2, penalty score=466.0
+O -C -N -CN   4   10.000       180.000           2.000      same as X -c -n -X , penalty score=  0.0
+O -C -N -H    1    2.500       180.000          -2.000      same as o -c -n -hn
+O -C -N -H    1    2.000         0.000           1.000      same as o -c -n -hn, penalty score=  0.0
+CA-CA-CN-N    4    4.390       180.000           2.000      same as ca-ca-ce-na, penalty score=638.0
+HA-CA-CN-N    4   14.500       180.000           2.000      same as X -ca-cp-X , penalty score=418.5
+CT-CB-CN-N    4   14.500       180.000           2.000      same as X -ca-cp-X , penalty score=418.5
+CA-CB-CN-N    4    4.390       180.000           2.000      same as ca-ca-ce-na, penalty score=638.0
+CA-CA-CA-CN   4   14.500       180.000           2.000      same as X -ca-ca-X , penalty score=  0.0
+CN-CA-CA-HA   4   14.500       180.000           2.000      same as X -ca-ca-X , penalty score=  0.0
+CT-CB-CN-CA   1    0.450       180.000           3.000      same as c2-ce-ce-c3, penalty score=1189.0
+CA-CB-CN-CA   1    0.805       180.000           2.000      same as ca-ca-ce-ca, penalty score=551.0
+CA-CA-CA-CA   4   14.500       180.000           2.000      same as X -ca-ca-X , penalty score=  0.0
+CA-CA-CA-HA   4   14.500       180.000           2.000      same as X -ca-ca-X , penalty score=  0.0
+CA-CA-CA-CB   4   14.500       180.000           2.000      same as X -ca-ca-X , penalty score=  0.0
+CA-CA-CB-CT   4   14.500       180.000           2.000      same as X -ca-ca-X , penalty score=  0.0
+CA-CA-CB-CN   4   14.500       180.000           2.000      same as X -ca-ca-X , penalty score=  0.0
+CB-CT-OH-HO   3    0.500         0.000           3.000      same as X -c3-oh-X , penalty score=  0.0
+O -C -CT-CB   6    0.000       180.000           2.000      same as X -c -c3-X , penalty score=  0.0
+N -C -CT-CB   6    0.000       180.000           2.000      same as X -c -c3-X , penalty score=  0.0
+CA-CA-CN-CB   1    0.805       180.000           2.000      same as ca-ca-ce-ca, penalty score=551.0
+HA-CA-CN-CB   4   14.500       180.000           2.000      same as X -ca-cp-X , penalty score=418.5
+HA-CA-CB-CT   4   14.500       180.000           2.000      same as X -ca-ca-X , penalty score=  0.0
+HA-CA-CB-CN   4   14.500       180.000           2.000      same as X -ca-ca-X , penalty score=  0.0
+CB-CA-CA-HA   4   14.500       180.000           2.000      same as X -ca-ca-X , penalty score=  0.0
+HA-CA-CA-HA   4   14.500       180.000           2.000      same as X -ca-ca-X , penalty score=  0.0
+CA-CN-N -H    4    6.600       180.000           2.000      same as X -n -cc-X , penalty score=292.0
+CB-CN-N -H    4    6.600       180.000           2.000      same as X -n -cc-X , penalty score=292.0
+HC-CT-CT-OH   1    0.090         0.000           3.000      same as hc-c3-c3-oh, penalty score=  0.0
+C -CT-CT-HC   9    1.400         0.000           3.000      same as X -c3-c3-X , penalty score=  0.0
+CB-CT-CT-HC   9    1.400         0.000           3.000      same as X -c3-c3-X , penalty score=  0.0
+CT-CT-CT-H1   9    1.400         0.000           3.000      same as X -c3-c3-X , penalty score=  0.0
+H1-CT-CT-HC   9    1.400         0.000           3.000      same as X -c3-c3-X , penalty score=  0.0
+O -C -CT-H1   1    0.800         0.000          -1.000      same as o -c -c3-h1
+O -C -CT-H1   1    0.080       180.000           3.000      same as o -c -c3-h1, penalty score=  0.0
+
+IMPROPER
+CT-N -C -O         10.5          180.0         2.0          Same as X -X -c -o , penalty score=  6.0 (use general term))
+C -CN-N -H          1.1          180.0         2.0          Same as X -X -n -hn, penalty score=  6.0 (use general term))
+CA-CB-CN-N          1.1          180.0         2.0          Using the default value
+CA-CN-CA-H1         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 53.8 (use general term))
+CA-CA-CA-H1         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 53.8 (use general term))
+CA-CB-CA-H1         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 53.8 (use general term))
+CA-CN-CB-CT         1.1          180.0         2.0          Using the default value
+
+NONBON
+  N           1.7852  0.1636             same as n  
+  H           0.6210  0.0100             same as hn 
+  CT          1.9069  0.1078             same as c3 
+  OH          1.8200  0.0930             same as oh 
+  HO          0.3019  0.0047             same as ho 
+  C           1.8606  0.0988             same as c  
+  O           1.7107  0.1463             same as o  
+  CN          1.8606  0.0988             same as c2 
+  CA          1.8606  0.0988             same as ca 
+  CB          1.8606  0.0988             same as ca 
+  HA          1.4735  0.0161             same as ha 
+  HC          1.4593  0.0208             same as hc 
+  H1          1.3593  0.0208             same as h1 
+
+
+

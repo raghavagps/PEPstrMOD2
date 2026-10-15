@@ -1,0 +1,66 @@
+Remark line goes here
+MASS
+N  14.010        0.530               same as n  
+H  1.008         0.161               same as hn 
+CD 12.010        0.360               same as cc 
+C  12.010        0.616               same as c  
+OH 16.000        0.465               same as oh 
+HO 1.008         0.135               same as ho 
+O  16.000        0.434               same as o  
+HA 1.008         0.135               same as ha 
+
+BOND
+H -N   403.20   1.013       same as hn- n, penalty score=  0.0
+CD-N   425.10   1.381       same as cc- n, penalty score=  0.0
+CD-CD  419.80   1.428       same as cc-cc, penalty score=  0.0
+C -CD  371.00   1.468       same as  c-cc, penalty score=  0.0
+CD-HA  349.10   1.084       same as cc-ha, penalty score=  0.0
+C -OH  400.10   1.351       same as  c-oh, penalty score=  0.0
+C -O   637.70   1.218       same as  c- o, penalty score=  0.0
+HO-OH  371.40   0.973       same as ho-oh, penalty score=  0.0
+
+ANGLE
+CD-CD-N    68.000     119.890   same as cc-cc-n , penalty score=  0.0
+C -CD-N    67.900     116.370   same as c -cc-n , penalty score=  0.0
+CD-N -H    47.900     119.260   same as cc-n -hn, penalty score=  0.0
+C -CD-CD   63.600     122.690   same as c -cc-cc, penalty score=  0.0
+CD-CD-HA   47.100     121.070   same as cc-cc-ha, penalty score=  0.0
+CD-C -O    69.100     123.930   same as cc-c -o , penalty score=  0.0
+CD-C -OH   70.000     112.840   same as cc-c -oh, penalty score=  0.0
+C -CD-HA   46.900     116.640   same as c -cc-ha, penalty score=  0.0
+C -OH-HO   49.900     106.550   same as c -oh-ho, penalty score=  0.0
+O -C -OH   75.900     122.100   same as o -c -oh, penalty score=  0.0
+
+DIHE
+C -CD-CD-N    4   16.000       180.000           2.000      same as X -cd-cd-X , penalty score=  0.0
+HA-CD-CD-N    4   16.000       180.000           2.000      same as X -cd-cd-X , penalty score=  0.0
+O -C -CD-N    4   11.500       180.000           2.000      same as X -c -cd-X , penalty score=  0.0
+CD-CD-N -H    4    6.600       180.000           2.000      same as X -n -cd-X , penalty score=  0.0
+C -CD-N -H    4    6.600       180.000           2.000      same as X -n -cd-X , penalty score=  0.0
+OH-C -CD-CD   4   11.500       180.000           2.000      same as X -c -cd-X , penalty score=  0.0
+O -C -CD-CD   4   11.500       180.000           2.000      same as X -c -cd-X , penalty score=  0.0
+CD-C -OH-HO   2    4.600       180.000           2.000      same as X -c -oh-X , penalty score=  0.0
+O -C -OH-HO   1    2.300       180.000          -2.000      same as ho-oh-c -o 
+O -C -OH-HO   1    1.900         0.000           1.000      same as ho-oh-c -o , penalty score=  0.0
+OH-C -CD-HA   4   11.500       180.000           2.000      same as X -c -cd-X , penalty score=  0.0
+O -C -CD-HA   4   11.500       180.000           2.000      same as X -c -cd-X , penalty score=  0.0
+C -CD-CD-C    4   16.000       180.000           2.000      same as X -cd-cd-X , penalty score=  0.0
+C -CD-CD-HA   4   16.000       180.000           2.000      same as X -cd-cd-X , penalty score=  0.0
+
+IMPROPER
+C -CD-CD-N          1.1          180.0         2.0          Using the default value
+C -CD-CD-HA         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 38.9 (use general term))
+CD-O -C -OH         1.1          180.0         2.0          Same as X -o -c -o , penalty score= 48.9 (use general term))
+
+NONBON
+  N           1.8240  0.1700             same as n  
+  H           0.6000  0.0157             same as hn 
+  CD          1.9080  0.0860             same as cc 
+  C           1.9080  0.0860             same as c  
+  OH          1.7210  0.2104             same as oh 
+  HO          0.0000  0.0000             same as ho 
+  O           1.6612  0.2100             same as o  
+  HA          1.4590  0.0150             same as ha 
+
+
+
