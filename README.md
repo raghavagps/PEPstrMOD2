@@ -13,11 +13,11 @@ A computational tool for predicting and refining the **three-dimensional structu
 ---
 
 ## 📚 Reference
-Jain S, Mehta NK, Raina S et al. PEPstrMOD2: Next-generation tertiary structure prediction of chemically modified and non-natural peptides. In: bioRxiv. bioRxiv, 6 July 2026. https://doi.org/10.64898/2026.06.22.733733.
+**Jain S, Mehta NK, Raina S et al.** PEPstrMOD2: Next-generation tertiary structure prediction of chemically modified and non-natural peptides. In: bioRxiv. bioRxiv, 6 July 2026. https://doi.org/10.64898/2026.06.22.733733.
 
 ---
 ### 🖼️ PEPstrMOD2 Workflow Representation
-![PEPstrMOD2 Workflow](https://raw.githubusercontent.com/saloni21098/PEPstrMOD2/main/PEPstrMOD2_workflow.png)
+![PEPstrMOD2 Workflow](PEPstrMOD2_workflow.png)
 
 
 ## 🧪 Quick Start for Reproducibility
