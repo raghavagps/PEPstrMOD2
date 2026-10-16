@@ -1190,6 +1190,16 @@
     "User Input": "{ptm:hydroxy5}"
   },
   {
+  "Natural Amino Acid": "Lysine/Lys/K",
+  "Modifications": "6-AMINOHEXANOIC ACID",
+  "Actual PDB code": "ACA",
+  "Three letter code": "ACA",
+  "MAP notation": "{ptm:ACA}",
+  "Type": "Deamination (alpha-amino removed)",
+  "User Code": "deamino",
+  "User Input": "{ptm:deamino}"
+  },
+  {
     "Natural Amino Acid": "Lysine/Lys/K",
     "Modifications": "(2S)-2-amino-6-[[3-hydroxy-2-methyl-5-(phosphonooxymethyl)pyridin-4-yl]methylideneamino]hexanoic acid",
     "Actual PDB code": "LLP",
